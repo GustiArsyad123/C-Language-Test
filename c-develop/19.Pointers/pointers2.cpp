@@ -10,9 +10,9 @@ string* food = &makanan;    // A pointer variable, with the name food, that stor
 // Output the value of makanan (Ayam Taliwang)
 cout << makanan << "\n";
 
-// Output the memory address of makanan (0x7ffe62dab3b0)
+// Output the memory address of makanan (0x7ffd64ec7400)
 cout << &makanan << "\n";
 
-// Output the memory address of makanan with the pointer (0x7ffe62dab3b0)
+// Output the memory address of makanan with the pointer (0x7ffd64ec7400)
 cout << food << "\n";
 }
