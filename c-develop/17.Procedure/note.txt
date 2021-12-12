@@ -1,0 +1,7 @@
+Function/fungsi di C++ >> Sebuah group Pernyataan pada tugas untuk dikerjakan
+secara bersamaan, dimana fungsi bisa mengembalikan (Returns)
+nilai baik berupa (nama, type, dan parameter).
+
+Procedure >> terdiri dari beberapa fungsi yang akan membawa 
+beberapa tugas/kinerja dengan mendefinisikan nilai (void) ruang kosong,
+fungsi seperti procedure tetapi tidak mengembalikan nilai.
