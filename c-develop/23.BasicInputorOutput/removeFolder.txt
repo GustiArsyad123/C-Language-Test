@@ -1,0 +1,18 @@
+08:31:31 cryptography@mail c ±|develop ✗|→ git rm -r --cached 23.BasicIorO 
+rm '23.BasicIorO/a.out'
+rm '23.BasicIorO/basicInputOrOut.cpp'
+08:31:48 cryptography@mail c ±|develop ✗|→ git commit -m "removed folder 23"
+[develop 2f30c99] removed folder 23
+ 2 files changed, 11 deletions(-)
+ delete mode 100755 23.BasicIorO/a.out
+ delete mode 100644 23.BasicIorO/basicInputOrOut.cpp
+08:32:23 cryptography@mail c ±|develop ✗|→ git push origin develop 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 228 bytes | 114.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+To gitlab.com:suriv27121994/c.git
+   1e166fc..2f30c99  develop -> develop
+08:32:59 cryptography@mail c ±|develop ✗|→ 
