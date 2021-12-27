@@ -1,0 +1,25 @@
+referensi: https://www.tutorialspoint.com/cplusplus/cpp_basic_input_output.htm
+
+Pustaka standar C++ menyediakan serangkaian kemampuan input/output yang luas yang akan kita lihat di bab selanjutnya. Bab ini akan membahas operasi I/O yang sangat mendasar dan paling umum yang diperlukan untuk pemrograman C++.
+
+C++ I/O terjadi dalam aliran, yang merupakan urutan byte. Jika byte mengalir dari perangkat seperti keyboard, disk drive, atau koneksi jaringan, dll. ke memori utama, ini disebut operasi input dan jika byte mengalir dari memori utama ke perangkat seperti layar tampilan, printer, drive disk , atau koneksi jaringan, dll., ini disebut operasi keluaran.
+
+Aliran Keluaran Standar (cout)
+
+Objek yang telah ditentukan sebelumnya adalah turunan dari kelas ostream. Objek cout dikatakan "terhubung ke" perangkat output standar, yang biasanya adalah tampilan layar. Cout digunakan bersama dengan operator penyisipan aliran, yang ditulis sebagai << yang dua kurang dari tanda
+
+Aliran Input Standar (cin)
+
+Objek yang telah ditentukan cin adalah turunan dari kelas istream. Objek cin dikatakan terpasang ke perangkat input standar, yang biasanya adalah keyboard. Cin digunakan bersama dengan operator ekstraksi aliran, yang ditulis sebagai >> yang dua lebih besar 
+
+Aliran Kesalahan Standar (cerr)
+
+Objek yang telah ditentukan cerr adalah turunan dari kelas ostream. Objek cerr dikatakan dilampirkan ke perangkat kesalahan standar, yang juga merupakan layar tampilan tetapi objek cerr tidak di-buffer dan setiap penyisipan aliran ke cerr menyebabkan outputnya segera muncul.
+
+Cerr juga digunakan bersama dengan operator penyisipan aliran
+
+Aliran Log Standar (menyumbat)
+
+Penyumbatan objek yang telah ditentukan sebelumnya adalah turunan dari kelas ostream. Objek clog dikatakan dilampirkan ke perangkat kesalahan standar, yang juga merupakan layar tampilan tetapi objek clog di-buffer. Artinya setiap penyisipan yang menyumbat dapat menyebabkan keluarannya tertahan di dalam buffer sampai buffer terisi atau sampai buffer dibilas.
+
+Penyumbatan juga digunakan bersama dengan operator penyisipan aliran
